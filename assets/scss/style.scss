@@ -1,0 +1,52 @@
+.location {
+
+  &__city {
+    position: absolute;
+    top: .3rem;
+    left: 1rem;
+  }
+}
+
+.hours {
+  text-align: center;
+  width: 100%;
+  margin-top: 25rem;
+  font-size: 10rem;
+}
+
+.date {
+  text-align: center;
+  width: 100%;
+  font-size: 5rem;
+}
+
+.main {
+  margin-top: 10rem;
+  text-align: center;
+
+  &__elem {
+
+    &--size-img {
+      font-size: 8rem;
+    }
+
+    &--metric {
+      margin-top: 1rem;
+      font-size: 2rem;
+    }
+
+    &--hour {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.theme {
+
+  &__name {
+    position: relative;
+    float: right;
+    top: 18rem;
+    right: 2rem
+  }
+}
