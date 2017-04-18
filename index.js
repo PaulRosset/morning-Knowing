@@ -5,9 +5,10 @@ let express = require("express")
 
 let app = express()
 
+app.use(express.static('public'))
+
 app.set('view engine', 'pug')
 app.set('views', __dirname + '/views')
-app.use(express.static('public'));
 
 let author = config.configTheme.nameTheme
 let country = config.location.country
