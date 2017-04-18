@@ -1,10 +1,12 @@
 let express = require("express")
     body = require("body-parser")
     config = require('./assets/config/config.js')
+    path = require('path')
 
 let app = express()
 
 app.set('view engine', 'pug')
+app.set('views', __dirname + '/views')
 app.use(express.static('public'));
 
 let author = config.configTheme.nameTheme
