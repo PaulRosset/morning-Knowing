@@ -29,6 +29,10 @@ gulp.task('runWebpack', function () {
     })
 })
 
+gulp.task('prod', ['sass', 'clean-css', 'runWebpack'], function () {
+    console.log("Gulp prod : OK")
+})
+
 gulp.task('dev', ['sass', 'clean-css', 'runWebpack'], function () {
     gulp.watch('assets/scss/style.scss', ['sass']);
     gulp.watch('public/dist/css/*.css', ['sass']);
