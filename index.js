@@ -16,7 +16,6 @@ let city = config.location.city
 
 app.get('/', function (req, res) {
     res.render('index', {
-        Test: "polo",
         author: author,
         country: country,
         city: city

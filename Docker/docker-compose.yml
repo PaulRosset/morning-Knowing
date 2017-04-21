@@ -1,0 +1,10 @@
+web:
+  build: .
+  container_name: mn_app
+  volumes:
+  - ../assets/config/config.js:/var/www/morning_knowing/assets/config/config.js
+  ports:
+  - "80:8080"
+  expose:
+  - "8080"
+  - "80"

@@ -1,14 +1,14 @@
 module.exports = {
-    user: "",
-    apiKeysWU: "",
+    user: "Paul Rosset",
+    apiKeysWU: "771533f0d5509845",
     location: {
-        languages: "", // fr and en supported atm
-        country: "",
-        city: ""
+	languages: "en", // fr and en supported atm
+	country: "France",
+	city: "Nice"
     },
     configTheme: {
-        author: "",
-        nameTheme: "default"
-        // @todo Customize theme
+	author: "",
+	nameTheme: "default"
+	// @todo Customize theme
     }
 }

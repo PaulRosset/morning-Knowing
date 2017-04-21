@@ -1,9 +1,0 @@
-web:
-  image: nodejsalpine:1.0
-  container_name: nodejs_app
-  volumes:
-  - $PWD/config.js:/var/www/morning_knowing/assets/config/config.js
-  ports:
-  - "8080:8080"
-  expose:
-  - "8080"

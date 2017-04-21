@@ -1,14 +1,14 @@
 {
-  "name": "backofficelite",
+  "name": "morning-knowing",
   "version": "1.0.0",
-  "description": "",
+  "description": "Small web app utility to know information about the time and weather before left the house. With this app you don't have to always check your phone to know the time.  ",
   "main": "index.js",
   "scripts": {
     "webpack": "webpack",
     "webwatch": "webpack --watch"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Paul Rosset",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^6.4.1",
@@ -24,5 +24,34 @@
     "path": "^0.12.7",
     "pug": "^2.0.0-beta11",
     "webpack": "^2.3.3"
-  }
+  },
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-exec": "^2.1.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^3.1.0",
+    "path": "^0.12.7",
+    "pug": "^2.0.0-beta11",
+    "webpack": "^2.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulRosset/morning-Knowing.git"
+  },
+  "keywords": [
+    "utility",
+    "web",
+    "app"
+  ],
+  "bugs": {
+    "url": "https://github.com/PaulRosset/morning-Knowing/issues"
+  },
+  "homepage": "https://github.com/PaulRosset/morning-Knowing#readme"
 }
