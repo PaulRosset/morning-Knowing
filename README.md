@@ -4,7 +4,7 @@ It's like a clock with weather in more.
 
 The morning, when you prepare you can adjust your clothes depending the weather or never forgot the time by checking the app instead of looking for your smartphone.
 
-[![Screen web App](http://137.74.199.46/images.png)]()
+![Screen web App](http://137.74.199.46/images.png)
 
 ## Install
 
