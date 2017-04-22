@@ -10,8 +10,6 @@
 
 There is a Docker integration for installing more easily.
 
-The best way is to have like a Raspeberry Pi at home and use it as Web server by launching the docker container.
-
 In first, you have to install docker on the machine who will host the container, with one of this command :
 
 - ```curl -sSL https://get.docker.com/ | sh```
@@ -25,6 +23,8 @@ If you are on Linux, the best way to install docker-compose is by installing wit
  sudo easy_install pip
  sudo pip3 install docker-compose
 ```
+
+For device using ARM and not x86_64 processors, docker is not implemented yet.
 
 Then, once docker is installed go to the root directory of the project and type : 
  ```
