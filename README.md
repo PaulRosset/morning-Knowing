@@ -18,6 +18,14 @@ In first, you have to install docker on the machine who will host the container,
 - ```wget -qO- https://get.docker.com/ | sh``` 
 - https://docs.docker.com/engine/installation/
 
+Once Docker is installed, if you are on Mac or Windows, docker-compose is installed with it, so you have no problem to continue.
+
+If you are on Linux, the best way to install docker-compose is by installing with pip packet manager with the following command :
+```
+ easy_install pip
+ pip3 install docker-compose
+```
+
 Then, once docker is installed go to the root directory of the project and type : 
  ```
     cd Docker/
