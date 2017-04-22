@@ -12,8 +12,10 @@ There is a Docker integration for installing more easily.
 
 The best way is to have like a Raspeberry Pi at home and use it as Web server by launching the docker container.
 
-In first, you have to install docker on the machine who will host the container.
+In first, you have to install docker on the machine who will host the container, with one of this command :
 
+- ```curl -sSL https://get.docker.com/ | sh```
+- ```wget -qO- https://get.docker.com/ | sh``` 
 - https://docs.docker.com/engine/installation/
 
 Then, once docker is installed go to the root directory of the project and type : 
