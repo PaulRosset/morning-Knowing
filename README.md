@@ -22,14 +22,14 @@ Once Docker is installed, if you are on Mac or Windows, docker-compose is instal
 
 If you are on Linux, the best way to install docker-compose is by installing with pip packet manager with the following command :
 ```
- easy_install pip
- pip3 install docker-compose
+ sudo easy_install pip
+ sudo pip3 install docker-compose
 ```
 
 Then, once docker is installed go to the root directory of the project and type : 
  ```
     cd Docker/
-    docker-compose up -d 
+    sudo docker-compose up -d 
   ```
 Now, you should see running the app at **http://ip_server**
 
@@ -44,7 +44,7 @@ Concerning the keys for the Weather Api, you have to create a developper account
 
 Then relaunch the docker container with the same command inside the **Docker** directory :
  ```
- docker-compose up -d
+ sudo docker-compose up -d
 ```
 
 ## Updates
