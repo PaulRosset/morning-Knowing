@@ -1,10 +1,10 @@
 module.exports = {
-    user: "Paul Rosset",
-    apiKeysWU: "771533f0d5509845",
+    user: "",
+    apiKeysWU: "",
     location: {
 	languages: "en", // fr and en supported atm
-	country: "France",
-	city: "Nice"
+	country: "",
+	city: ""
     },
     configTheme: {
 	author: "",
